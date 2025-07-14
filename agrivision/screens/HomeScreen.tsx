@@ -79,25 +79,25 @@ export default function HomeScreen() {
       <Text style={styles.sectionTitle}>AI Support</Text>
 
       <View style={styles.aiSupport}>
-        <TouchableOpacity style={styles.card} onPress={() => navigation.navigate("Upload")}>
+        <TouchableOpacity style={styles.card} onPress={() => navigation.navigate("UploadPage")}>
           <Ionicons name="leaf-outline" size={32} color="#4CAF50" />
           <Text style={styles.cardTitle}>Disease Scanner</Text>
           <Text style={styles.cardSubtitle}>Identify plant problems</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.card} onPress={() => navigation.navigate("Scan")}>
+        <TouchableOpacity style={styles.card} onPress={() => navigation.navigate("ScanScreen")}>
           <Ionicons name="planet-outline" size={32} color="#3F51B5" />
           <Text style={styles.cardTitle}>Satellite Scanner</Text>
           <Text style={styles.cardSubtitle}>Scan Using Satellite</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.card} onPress={() => navigation.navigate("Dashboard")}>
+        <TouchableOpacity style={styles.card} onPress={() => navigation.navigate("AgriScreenData")}>
           <Ionicons name="cloud-outline" size={32} color="#2196F3" />
           <Text style={styles.cardTitle}>Weather Details</Text>
           <Text style={styles.cardSubtitle}>Complete Weather Forecast</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.card} onPress={() => navigation.navigate("Device")}>
+        <TouchableOpacity style={styles.card} onPress={() => navigation.navigate("DeviceScreen")}>
           <Ionicons name="hardware-chip-outline" size={32} color="#FF9800" />
           <Text style={styles.cardTitle}>Devices</Text>
           <Text style={styles.cardSubtitle}>Edit Device Details</Text>
